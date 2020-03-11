@@ -1,0 +1,237 @@
+* html {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size:1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*Header*/
+.top-nav {
+    overflow: hidden;
+    background-color: #e0e0e0;
+    box-shadow:5px 5px 5px grey;
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+.top-nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top-nav .search-container {
+    padding: 50px;
+    text-align:center;
+    width: 70%;
+    border-radius: 23px;
+
+
+}
+/*
+* Side Menu
+*
+ */
+
+/* Fixed sid-enav, full height */
+.side-nav {
+    color: #2A2A2A;
+    height: 50%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 160px;
+    margin-left: 0.1px;
+    box-shadow:2px 2px 1px 1px grey;
+    font-size: 0em !important;
+    font-family: Arial, Helvetica, sans-serif ;
+
+
+
+}
+
+/* Style the side-nav links and the dropdown button */
+
+/* Fixed side-nav, full height */
+.side-nav {
+    height: 70%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #e0e0e0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 149px;
+
+}
+
+/* Style the side-nav links and the dropdown button */
+.side-nav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.side-nav a:hover, .dropdown-btn:hover {
+    color: #000;
+}
+
+/* Main content */
+.main {
+    margin-left: 200px; /* Same as the width of the side-nav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: #8B1919;
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #545454;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+    .side-nav {padding-top: 15px;}
+    .side-nav a {font-size: 18px;}
+}
+
+ul a {
+    list-style: none;
+    margin-left: -8px;
+
+}
+
+hr {
+    margin-left: -10px;
+}
+ #hover a:hover {
+
+    color: #000;
+    background-color: #2A2A2A;
+    padding-left: -10px;
+    padding-right: -10px;
+    padding-left:50px;
+    padding-right:50px;
+    width:auto;
+
+}
+
+ iframe {
+     margin-left: 26%;
+     margin-top: 0%;
+ }
+
+ /*
+ search sections
+
+ */
+.font-weight {
+    font-weight:bold;
+    margin-left: 15px;
+}
+
+.search-section{
+    display: inline-block;
+    position: relative;
+    margin-left: 240px;
+    margin-top: 3%;
+}
+.search-section h5{
+    color: #fff;
+    font-weight: bold !important;
+}
+
+.search-section .pg-search{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    font-size: 12px;
+
+}
+.subm-btn{
+    display: inline-block;
+    background: transparent;
+    border: 1px solid #bdbec2;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.search-section .form-control{
+    height: 20px;
+    border:none;
+    background: #8B1919;
+    width: 200px;
+    margin-top: -4px;
+    padding-left: 	24px;
+    color: #fff;
+    font-weight: bold;
+    text-transform:uppercase;
+    min-height: 20px;
+    font-size: 9px;
+    display:inline-block;
+}
+
+/*
+*
+*
+*
+     Avatar    */
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: right;
+    margin-right:50px;
+    margin-top: 3%;
+
+
+
+}
+/* Avatar Name */
+#name-align {
+    margin-left: -180px;
+    margin-top: 5%;
+    margin-bottom: -69%;
+}
+
+
+

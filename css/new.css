@@ -1,0 +1,243 @@
+.ttu {
+	text-transform: uppercase;
+}
+
+.text-color {
+	color: #60393b;
+}
+
+.section {
+	padding-top: 85px;
+	padding-bottom: 65px;
+}
+
+.section h4 {
+ 	font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 22px;
+    text-align: center;
+    padding-top:45px;
+}
+
+.training-slider-wrap {
+	padding-right: 8px;
+	padding-left: 8px;
+	overflow: hidden;
+	margin-right: -8px;
+	margin-left: -8px;
+}
+
+.training-slider {
+	margin-bottom: 30px;
+}
+
+.training-slider .owl-stage-outer {
+	padding-top: 50px;
+	padding-bottom: 40px;
+	overflow: visible;
+}
+
+.accreditation-slider-wrap {
+	padding-right: 15px;
+	padding-left: 15px;
+	overflow: hidden;
+}
+
+.accreditation-slider .owl-stage-outer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: visible;
+}
+
+.training-slider .owl-item,
+.accreditation-slider .owl-item {
+	transition: 0.6s ease;
+	border-radius: 1px;
+}
+
+.main-slide {
+	border: none;
+	border-radius: 1px;
+}
+
+.training-slider .main-slide {
+	box-shadow: 0px 5px 8px rgba(41, 9, 2, 0.6);
+	background-color: rgba(118,45,43,0.2);
+}
+
+.accreditation-slider .main-slide {
+	box-shadow: 4px 4px 5px rgba(41, 9, 2, 0.6);
+	background-color: #fff;
+}
+
+.training-slider .owl-item.center {
+	transform: scale(1.2, 1.2);
+	transition: .6s ease;
+	position: relative;
+	z-index: 2;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+.slide-image {
+	min-width: 100%;
+	max-width: 120%;
+	height: 0;
+	padding-top: 54%;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	border-radius: 1px 1px 0 0;
+}
+
+.training-slider .slide-image {
+}
+
+.accreditation-slider .slide-image {
+	height: 140px;
+	padding-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.training-slider .slide-image img {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.accreditation-slider .slide-image img {
+	max-width: 100%;
+	display: block;
+	max-height: 100%;
+}
+
+.description {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 15px;
+	text-align: center;
+}
+
+.training-slider .description {
+	height: 120px;
+	background-color: #762d2b;
+	color: #fff;
+        padding: 0 15px;
+        
+}
+
+.accreditation-slider .description {
+	height: 115px;
+	color: #60393b;
+	align-items: flex-start;
+}
+
+.description h6 {
+	font-family: "Times New Roman";
+	font-size: 14px;
+	font-weight: 400;
+}
+.description h5 {
+	font-family: "Times New Roman";
+	font-size: 14px;
+	font-weight: 400;
+}
+/*divider*/
+.divider {
+	height: 3px;
+	width: 100%;
+	padding: 0;
+	margin: 20px 0;
+	background-color: #7b3839;
+}
+
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 991px) {
+    	.section h4 {
+		font-size: 28px;
+                    margin-top: 10px;
+                   padding-top: 10px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.section h4 {
+		font-size: 20px;
+                    margin-top: 10px;
+                   padding-top: 45px;
+	}
+
+	.training-slider {
+		margin-bottom: 0;
+	}
+
+	.accreditation-slider .description {
+		height: 130px;
+	}
+}
+
+
+@media screen and (max-width: 575px) {
+       .description h6 {
+	font-family: "Times New Roman";
+	font-size: 14px;
+	font-weight: 400;
+        padding-top:27px;
+        padding-bottom:10px;
+        height:130px;
+        }
+         .description h5 {
+	font-family: "Times New Roman";
+	font-size: 14px;
+	font-weight: 400;
+        padding-top:27px;
+        padding-bottom:10px;
+        height:160px;
+        }
+
+	.section {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.training-slider {
+		margin-bottom: 0px;
+	}
+
+	.training-slider .owl-stage-outer {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.accreditation-slider .description,
+	.training-slider .description {
+		height: auto;
+	}
+
+	.training-slider .owl-item.center {
+		transform: none;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+        .divider {
+         height: 3px;
+         width: 100%;
+         padding: 0;
+         margin: 40px 0;
+        background-color: #7b3839;
+    }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "1Vt47avGrwUps0VmLkiBq7YG-bCTSgxHh",
+  "name": "Lessons",
+  "folders": [
+    {
+      "id": "1_btsWxKsfqsDt3B5ijbMIEyYV2XPxV73",
+      "name": "Lesson 3",
+      "files": [
+        {
+          "id": "1P9swPCbP9m-mYczZs7NmLSEsFiItGnI27HYqUmbiqpY",
+          "name": "Lesson 3.4 Quiz",
+          "type": "application/vnd.google-apps.form"
+        },
+        {
+          "id": "16huJfyrgVizSUG2IW3XqVMpwu0gj0Zje-UKXKAk5Ev4",
+          "name": "Lesson 3.3",
+          "type": "application/vnd.google-apps.document"
+        },
+        {
+          "id": "1d5JpnSrrOHTLZrallxxt53OhRuKoKvjRg-htRA0bOv4",
+          "name": "Lesson 3.2",
+          "type": "application/vnd.google-apps.document"
+        },
+        {
+          "id": "19OftS4r3Y52RIOV0w3DGuT4U1q06Zm76P0K60IF1geA",
+          "name": "Lesson 3.1",
+          "type": "application/vnd.google-apps.document"
+        }
+      ],
+      "folders": []
+    },
+    {
+      "id": "1F9talCKTGlLyyPcnt-VYuGPd_7B0VqgB",
+      "name": "Lesson 2",
+      "files": [
+        {
+          "id": "1apd04H50jKY7KKKAMFv_tnhm-p8CiywZhMUQwRDdGno",
+          "name": "Lesson 2.4 Quiz",
+          "type": "application/vnd.google-apps.form"
+        },
+        {
+          "id": "122ZdaG8SXWwUZh4xDkvtQhDx0HaF-l_XmN2cY3L_vLw",
+          "name": "Lesson 2.3",
+          "type": "application/vnd.google-apps.document"
+        },
+        {
+          "id": "1QKhI-jmjkJNOJDxJRRmwiHB29M3WnSAmQHAXUEPrmfY",
+          "name": "Lesson 2.2",
+          "type": "application/vnd.google-apps.document"
+        },
+        {
+          "id": "1drwMTdacxckhU0XAw8c87c-V-XtF_nN-9NSdZZVQI3A",
+          "name": "Lesson 2.1",
+          "type": "application/vnd.google-apps.document"
+        }
+      ],
+      "folders": []
+    },
+    {
+      "id": "1_4BXoD-4_4QnqCNyCMoxgw1bWamiha0W",
+      "name": "Lesson 1",
+      "files": [
+        {
+          "id": "1uvKwS2NMXHzWZCMpRwDPr54Rt6xKmB6RvgCtyjz7R5Y",
+          "name": "Lesson 1.4 Quiz",
+          "type": "application/vnd.google-apps.form"
+        },
+        {
+          "id": "1AXFKDWt3IIM5RSGgljnvf-vHRKWp-Yu0XQVLi7Jy5mc",
+          "name": "Lesson 1.3",
+          "type": "application/vnd.google-apps.document"
+        },
+        {
+          "id": "1eKnuaP8wLMOG6Uozpz_9PaXXwJ7BlbrQHMObv7OpOwQ",
+          "name": "Lesson 1.2",
+          "type": "application/vnd.google-apps.document"
+        },
+        {
+          "id": "11n-f-6YbxMtii-6QfE0U00hQA7DzKZKQwl4SabCbEGI",
+          "name": "Lesson 1.1",
+          "type": "application/vnd.google-apps.document"
+        }
+      ],
+      "folders": []
+    }
+  ]
+}

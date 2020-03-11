@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+
+<div class="login">
+    <h1>Sign in</h1>
+    <br/>
+    <hr>
+    <br/><br/>
+    <button id="login" class="SignInbutton">
+        <strong>Sign in with Google</strong>
+    </button>
+    <br/><br/>
+    <a href="register.html">
+        <button class="btnRegister"><strong>Register</strong></button>
+        <br/><br/></a>
+    <p>This page is protected by reCAPTCHA and is subject to the
+        <a href=#><font color="#8B1919"><br/>Google Privacy Policy Terms of Service</font></a></p><br/>
+    <p><input type="checkbox">Remember me <br/></p><br/>
+    <p><a href=#><font color="#8B1919">Forgot your password</font></a></p>
+</div>
+
+
+
+
+<script src="vendors/url-polyfill.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/google.api.js"></script>
+
+<script>
+    (function ($) {
+        GoogleAPI.init().then(function() {
+            $('#login').on('click', function(e) {
+                e.preventDefault();
+
+                GoogleAPI.signIn().then(function() {
+                    var url_from = new URL(window.location.href).searchParams.get("from");
+                    window.location.href = url_from ? url_from : 'index.html';
+                });
+            })
+        })
+    }(jQuery));
+</script>
+
+</body>
+</html>

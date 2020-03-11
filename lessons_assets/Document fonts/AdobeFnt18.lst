@@ -1,0 +1,193 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DejaVuSansMono-Bold
+FamilyName:DejaVu Sans Mono
+StyleName:Bold
+FullName:DejaVu Sans Mono Bold
+MenuName:DejaVu Sans Mono
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\BONOLO\Desktop\Clients work\Sejamo\Sejamo_Programme Folder\Document fonts\DejaVuSansMono-Bold_0.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:318392
+FileModTime:1541565352
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,DejaVu Sans Mono Bold
+NameArray:0,Win,1,DejaVu Sans Mono
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DejaVuSansMono
+FamilyName:DejaVu Sans Mono
+StyleName:Book
+FullName:DejaVu Sans Mono
+MenuName:DejaVu Sans Mono
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\BONOLO\Desktop\Clients work\Sejamo\Sejamo_Programme Folder\Document fonts\DejaVuSansMono_0.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:335068
+FileModTime:1541565352
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,DejaVu Sans Mono
+NameArray:0,Win,1,DejaVu Sans Mono
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Interstate-ExtraLight
+FamilyName:Interstate
+StyleName:ExtraLight
+FullName:Interstate ExtraLight
+MenuName:Interstate ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\BONOLO\Desktop\Clients work\Sejamo\Sejamo_Programme Folder\Document fonts\Interstate-ExtraLight_0.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:25448
+FileModTime:1261382384
+WeightClass:200
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Interstate ExtraLight
+NameArray:0,Win,1,Interstate ExtraLight
+NameArray:0,Win,16,Interstate
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Interstate-Regular
+FamilyName:Interstate
+StyleName:Regular
+FullName:Interstate
+MenuName:Interstate Regular
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\BONOLO\Desktop\Clients work\Sejamo\Sejamo_Programme Folder\Document fonts\Interstate-Regular_0.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:25552
+FileModTime:1261382384
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Interstate Regular
+NameArray:0,Mac,4,Interstate
+NameArray:0,Win,1,Interstate Regular
+NameArray:0,Win,16,Interstate
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\BONOLO\Desktop\Clients work\Sejamo\Sejamo_Programme Folder\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:218640
+FileModTime:1363404332
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Bold
+FamilyName:Roboto
+StyleName:Bold
+FullName:Roboto Bold
+MenuName:Roboto
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\BONOLO\Desktop\Clients work\Sejamo\Sejamo_Programme Folder\Document fonts\Roboto-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:163448
+FileModTime:1461945800
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Bold
+NameArray:0,Mac,4,Roboto Bold
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+FullName:Roboto Regular
+MenuName:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\BONOLO\Desktop\Clients work\Sejamo\Sejamo_Programme Folder\Document fonts\Roboto-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:158604
+FileModTime:1461945802
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Roboto Regular
+NameArray:0,Mac,4,Roboto Regular
+NameArray:0,Win,1,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Interstate-Black
+FamilyName:Interstate Black
+StyleName:Regular
+FullName:Interstate-Black
+MenuName:Interstate Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\BONOLO\Desktop\Clients work\Sejamo\Sejamo_Programme Folder\Document fonts\ufonts.com_interstate-black-opentype.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:38524
+FileModTime:1447369364
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Interstate-Black
+NameArray:0,Win,1,Interstate Black
+%EndFont
+

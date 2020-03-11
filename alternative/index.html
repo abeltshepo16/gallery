@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">-->
+
+    <title>Sejamo</title>
+</head>
+<body>
+<!--===Header===-->
+<div class="top-nav">
+    <a href="index.html"><img src="img/logo.png" width="200" height="120"></a>
+
+    <div class="search-section">
+        <i class="pg-search"></i><input type="text" class="form-control" placeholder="search" name="">
+        <input type="submit" class="subm-btn" value="Search" name="">
+    </div>
+    <div class="avatar">
+        <p id="name-align">Matt Johnson</p>
+        <img src="img/avatar.png" alt="Avatar" class="avatar">
+    </div>
+
+</div>
+
+<div class="iframe">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaYTT48nBWkxmmoW3dccSu1_QfmxA81XlsLZUDNZSXMtL8CQ/viewform?embedded=true" width="640" height="2615" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
+
+<div class="iframe">
+<iframe src="assets/Test.pdf" height="600" width="700"></iframe>
+</div>
+
+
+<div class="side-nav">
+    <i class="fab fa-java"></i>
+
+    <h5 class="font-weight">JAVA </h5>
+    <hr>
+    <button class="dropdown-btn">Raw Basics
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">1.1 Raw Basics 1</a>
+        <a href="#">1.2 Raw Basics 2</a>
+        <a href="#">1.3 Raw Basics 3</a>
+    </div>
+    <hr>
+    <button class="dropdown-btn">Introduction
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">1.1 Installing Java</a>
+        <a href="#">1.2 Programming</a>
+        <a href="#">1.3 Command Line</a>
+    </div>
+    <hr>
+    <button class="dropdown-btn">Fundamentals
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">1.1 Class</a>
+        <a href="#">1.2 Hello World</a>
+        <a href="#">1.3 Variable</a>
+    </div>
+    <hr>
+    <button class="dropdown-btn">OOP
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">1.2 Oriented</a>
+        <a href="#">1.3 Objects</a>
+        <a href="#">1.4 Constructors</a>
+    </div>
+    <hr>
+    <button class="dropdown-btn">Exceptions
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">1.1 Lorem ipsum</a>
+        <a href="#">1.2 Lorem ipsum</a>
+        <a href="#">1.3 Lorem ipsum</a>
+    </div>
+    <hr>
+    <button class="dropdown-btn">Java Lang
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">1.1 Lorem ipsum</a>
+        <a href="#">1.2 Lorem ipsum</a>
+        <a href="#">1.3 Lorem ipsum</a>
+    </div>
+    <hr>
+    <button class="dropdown-btn">Java Util
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">1.1 Lorem ipsum</a>
+        <a href="#">1.2 Lorem ipsum</a>
+        <a href="#">1.3 Lorem ipsum</a>
+    </div>
+    <hr>
+    <button class="dropdown-btn">Multi Tasking
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">1.1 Lorem ipsum</a>
+        <a href="#">1.2 Lorem ipsum</a>
+        <a href="#">1.3 Lorem ipsum</a>
+    </div>
+    <hr>
+    <button class="dropdown-btn">Java IO
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">1.1 Lorem ipsum</a>
+        <a href="#">1.2 Lorem ipsum</a>
+        <a href="#">1.3 Lorem ipsum</a>
+    </div>
+    <hr>
+    <button class="dropdown-btn">RegEx
+        <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">1.1 Lorem ipsum</a>
+        <a href="#">1.2 Lorem ipsum</a>
+        <a href="#">1.3 Lorem ipsum</a>
+    </div>
+
+</div>
+
+
+<footer>
+    <script>
+        $('#register').submit(function(e) {
+            e.preventDefault();
+            $.ajax({
+                url: "https://docs.google.com/forms/d/e/1FAIpQLSeaYTT48nBWkxmmoW3dccSu1_QfmxA81XlsLZUDNZSXMtL8CQ/viewform?embedded=true",
+                data: $(this).serialize(),
+                type: "POST",
+                dataType: "xml",
+                success: function(data) {
+                    alert('Submission successful');
+                },
+                error: function(xhr, status, error) {
+                    alert('Submission failed: ' + error);
+                }
+            });
+            window.location.assign(window.location = "index.html");
+        });
+    </script>
+    <script>
+    /* ==Script For The Side Nav Bar== */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+</script>
+</footer>
+
+</body>
+</html>

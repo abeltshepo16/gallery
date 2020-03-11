@@ -1,0 +1,162 @@
+@import "variables";
+@import "predefine";
+@import "footer";
+
+$shadowColor: #bebcbd;
+$thinShadow: 4px 0 $shadowColor;
+
+body {
+  color: black;
+}
+
+.lessons-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.lessons-header {
+  width: 100%;
+  background-color: #ebecee;
+  margin-top: 20px;
+  font-family: $rob;
+  box-shadow: 0 -2px 10px 0 $shadowColor, 0 2px 10px;
+
+  .search-bar {
+    input {
+      background: #ad3c25 url("../img/icon/search.svg") no-repeat 10px 2px;
+      background-size: 22px 22px;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      color: white;
+      padding-left: 35px;
+    }
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  .logo {
+    img {
+      height: 140px;
+    }
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+
+    .user-auth {
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px;
+    }
+
+    .sign-btn {
+      background-color: #008CBA;
+      border: none;
+      color: white;
+      padding: 9px 22px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 10px;
+      box-shadow: 2px 2px 3px grey;
+      font-size: 18px;
+    }
+
+    .user-avatar {
+      max-height: 96px;
+      border-radius: 25px;
+      display: none;
+    }
+
+    .user-name {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+
+}
+
+.lesson-view {
+  margin-top: 10px;
+
+  iframe {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+
+.lessons-menu-container {
+  $horizontalPadding: 35px;
+  $arrowDistance: 19px;
+  $subMenuIconColor: #111;
+
+  margin-top: 4px;
+  box-shadow: -1px 0 $thinShadow, 1px 0 $thinShadow;
+  font-family: $rob;
+
+  .lesson-menu-header {
+    padding: 65px $horizontalPadding 38px $horizontalPadding;
+    box-shadow: 0 1px $thinShadow
+  }
+
+  .lessons-menu {
+    padding: 30px ($horizontalPadding + $arrowDistance);
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 15px;
+      position: relative;
+      padding-left: 5px;
+    }
+
+    & > li {
+      border-bottom: 1px solid #d5d8d9;
+    }
+
+    .active {
+      background-color: #ebebec;
+
+      a {
+        cursor: default;
+      }
+    }
+
+    a {
+      color: black;
+    }
+
+    .menu-icon {
+      border-color: transparent $subMenuIconColor;
+      position: absolute;
+      top: 8px;
+      left: -19px;
+    }
+
+    .menu-icon-collapsed {
+      border-top: 0.35em solid transparent;
+      border-bottom: 0.35em solid transparent;
+      border-left: 0.45em solid $subMenuIconColor;
+    }
+
+    .menu-icon-expanded {
+      border-left: 0.35em solid transparent;
+      border-right: 0.35em solid transparent;
+      border-top: 0.45em solid $subMenuIconColor;
+    }
+  }
+
+  ul {
+    list-style: none;
+  }
+
+}
+
+
